@@ -1,5 +1,6 @@
-@import url("../style.css/section.css");
+@import url("../style/section.css");
 @import url("../cdn/cdn.css");
+@import url("../style/pricing.css");
 
 * {
   margin: 0;
@@ -12,7 +13,6 @@
 html {
   font-family: "Open Sans", "Raleway", sans-serif;
   font-size: 18px;
-  background-color: beige;
 }
 
 .container {
@@ -26,12 +26,21 @@ html {
   padding: 80px 0 116px 0;
 }
 
-.content-benefits__title {
+.text p {
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+  text-align: center;
+  line-height: 19px;
+}
+
+.title {
   font-family: "Raleway";
   font-weight: 400;
   font-size: 36px;
+  text-transform: uppercase;
   text-align: center;
-  padding-bottom: 34px;
+  margin-bottom: 34px;
   color: #212121;
 }
 
@@ -41,4 +50,5 @@ html {
   background-color: #E72424;
   display: block;
   margin: auto;
+  margin-bottom: 34px;
 }

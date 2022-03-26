@@ -10,26 +10,22 @@
   margin: 0 -15px; 
 }
 
-.pricing__content{
+.pricing__ul{
   margin: 0 15px; 
+  width: 340px;
 }
 
 .pricing__text {
   margin-bottom: 62px;
 }
 
-.pricing__ul {
-  width: 340px;
-}
-
 .item_black {
   background: #333333;
   font-family: "Open Sans";
-  font-style: normal;
   font-weight: 700;
   font-size: 20px;
   padding: 11px 0;
-  margin-bottom: 2px;
+  margin-bottom: 1px;
   text-align: center;
 }
 
@@ -51,7 +47,7 @@
 
 .item_white  {
   background-color: #fff;
-  margin-top: 4px;
+  margin-top: 2px;
   text-align: center;
   padding: 6px;
 }

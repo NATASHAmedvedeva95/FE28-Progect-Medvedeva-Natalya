@@ -1,0 +1,48 @@
+.design {
+  padding: 58px 0 38px 0;
+  background: url("../img/bg/backg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 2;
+}
+
+.design::after {
+  content: "";
+  background: rgba(0, 0, 0, 0.55);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.design_text {
+  font-weight: 300;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 53px;
+}
+
+.design__link {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  margin: auto;
+  padding: 9px 0;
+}
+
+.design__link a {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.design__link:hover {
+  cursor: pointer;
+}

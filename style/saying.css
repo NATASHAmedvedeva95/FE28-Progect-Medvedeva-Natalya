@@ -1,0 +1,68 @@
+.saying {
+  padding: 80px 0 124px 0;
+}
+.saying__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.saying__item{
+  margin: 0 15px; 
+}
+.saying__text {
+  position: relative;
+  width: 298px;
+  padding: 7px 19px;
+  background: #e2e2e2;
+  border-radius: 7px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  margin-bottom: 7px;
+}
+.saying__text::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: #e2e2e2;
+  transform: rotate(-45deg);
+  position: absolute;
+  left: 46px;
+  bottom: -9px;
+}
+
+.saying__avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 45px;
+}
+
+.saying__span span {
+  display: block;
+  text-align: right;
+}
+
+.saying__image {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+}
+
+.span_jeremy {
+  font-weight: 700;
+  font-size: 20px;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+.span_manager {
+  font-weight: 400;
+  font-size: 14px;
+  color: #86878b;
+}
+

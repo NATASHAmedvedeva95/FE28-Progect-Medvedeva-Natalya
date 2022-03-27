@@ -3,7 +3,8 @@
 @import url("../style/pricing.css");
 @import url("../style/saying.css");
 @import url("../style/design.css");
-
+@import url("../style/tabs.css");
+@import url("..//style/contact.css");
 * {
   margin: 0;
   padding: 0;
@@ -21,9 +22,7 @@ html {
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
-  
 }
-
 
 .text p {
   font-weight: 400;
@@ -42,20 +41,53 @@ html {
   margin-bottom: 34px;
   color: #212121;
 }
-.title::after{
-  content: '';
+.title::after {
+  content: "";
   display: block;
   width: 64px;
   height: 1px;
-  background-color: #E72424;
+  background-color: #e72424;
   margin: 0 auto;
   margin-top: 34px;
 }
 
-.title_white{
-  color: white
+.title_white {
+  color: white;
 }
 
-.title_white::after{
+.title_white::after {
   background-color: #ffffff;
+}
+
+.link {
+  width: 135px;
+  height: 42px;
+  border: 1px solid #ffffff;
+  text-align: center;
+  margin: auto;
+  padding: 6px 0;
+}
+
+.link a {
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.link:hover {
+  cursor: pointer;
+}
+
+.tabs__link {
+  background: #ec7979;
+  /* уточнить про это св-во */
+  /* margin: initial; */
+  margin-left: 0;
+}
+
+.contact__link{
+  background: #ec7979;
+ 
 }

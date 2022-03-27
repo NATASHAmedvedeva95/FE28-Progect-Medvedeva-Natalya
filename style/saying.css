@@ -10,7 +10,25 @@
 .saying__item{
   margin: 0 15px; 
 }
-.saying__text {
+
+.saying__avatar {
+  width: 70px;
+  height: 70px;
+  border: 1px solid none;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 35px;
+  margin-top: 2px;
+}
+
+.saying__avatar img{
+  height: 100%;
+}
+
+.saying__text  {
   position: relative;
   width: 298px;
   padding: 7px 19px;
@@ -25,22 +43,20 @@
 }
 .saying__text::after {
   content: "";
-  display: block;
-  width: 20px;
-  height: 20px;
-  background: #e2e2e2;
-  transform: rotate(-45deg);
+  width: 0; 
+  height: 0; 
+  /* border: 20px solid transparent;
+  border-top: 20px solid #e2e2e2; */
+  border-left: 20px solid transparent; 
+  border-right: 20px solid transparent; 
+  border-bottom: 20px solid #e2e2e2;
+  transform: rotate(180deg);
   position: absolute;
-  left: 46px;
-  bottom: -9px;
+  left: 47px;
+  top: 100%;
 }
 
-.saying__avatar img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  margin-right: 45px;
-}
+
 
 .saying__span span {
   display: block;

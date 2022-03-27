@@ -26,23 +26,7 @@
   margin-bottom: 53px;
 }
 
-.design__link {
-  width: 135px;
-  height: 42px;
-  border: 1px solid #ffffff;
-  text-align: center;
-  margin: auto;
-  padding: 9px 0;
-}
 
-.design__link a {
-  color: #ffffff;
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-}
 
-.design__link:hover {
-  cursor: pointer;
-}
+
+

@@ -14,7 +14,6 @@
 .saying__avatar {
   width: 70px;
   height: 70px;
-  border: 1px solid none;
   border-radius: 50%;
   overflow: hidden;
   display: flex;
@@ -22,13 +21,19 @@
   align-items: center;
   margin-right: 35px;
   margin-top: 2px;
+  transition: 1s;
+  transform-origin: top left;
 }
 
 .saying__avatar img{
   height: 100%;
 }
 
-.saying__text  {
+.saying__avatar:hover{
+  transform: scale(1.4) rotate(50deg);
+}
+
+.saying__text{
   position: relative;
   width: 298px;
   padding: 7px 19px;
@@ -39,23 +44,29 @@
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
-  margin-bottom: 7px;
+  margin-bottom: 18px;
 }
+
+.saying__text p{
+  transition: 1.05s;
+}
+
+.saying__text p:hover{
+  transform: scale(1.1);
+}
+
 .saying__text::after {
   content: "";
   width: 0; 
   height: 0; 
-  /* border: 20px solid transparent;
-  border-top: 20px solid #e2e2e2; */
-  border-left: 20px solid transparent; 
-  border-right: 20px solid transparent; 
-  border-bottom: 20px solid #e2e2e2;
+  border-left: 15px solid transparent; 
+  border-right: 15px solid transparent; 
+  border-bottom: 14px solid #e2e2e2;
   transform: rotate(180deg);
   position: absolute;
-  left: 47px;
+  left: 39px;
   top: 100%;
 }
-
 
 
 .saying__span span {
@@ -63,10 +74,12 @@
   text-align: right;
 }
 
-.saying__image {
+.saying__row {
   display: flex;
   justify-content: center;
-  margin-top: 22px;
+  margin: auto;
+  width: 298px;
+  align-items: center;
 }
 
 .span_jeremy {

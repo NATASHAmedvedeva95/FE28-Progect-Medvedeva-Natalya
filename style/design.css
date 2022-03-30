@@ -27,6 +27,16 @@
   margin-bottom: 53px;
 }
 
+.link{
+  transition: 1s;
+}
+
+.link:hover{
+  transform: scale(0.95);
+  box-shadow: inset 0px 0px 25px rgba(19, 16, 16, 0.55);
+  border-color: rgb(54, 53, 53);
+}
+
 
 
 

@@ -4,6 +4,9 @@
 @import url("../style/saying.css");
 @import url("../style/design.css");
 @import url("../style/tabs.css");
+@import url("../style/header.css");
+@import url("../style/social.css");
+@import url("../style/footer.css");
 
 * {
   margin: 0;
@@ -54,6 +57,12 @@ html {
   margin-top: 34px;
 }
 
+.title:hover{
+ transform: scale(1);
+ transition: 0.4s;
+ color:#a39898;
+}
+
 .title_white {
   color: white;
 }
@@ -92,5 +101,6 @@ html {
 
 .contact__link{
   background: #ec7979;
- 
 }
+
+

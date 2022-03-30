@@ -1,0 +1,52 @@
+.header {
+  padding: 20px 0;
+  background-color: #000000;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.list {
+  display: flex;
+}
+
+.list__item {
+  margin-right: 41px;
+}
+
+
+.list__item a {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.list__item a:hover{
+  border-bottom: 3px solid #ffffff;
+  transition: 0.5s;
+  color:#832e2e;
+}
+
+.list__item:last-child {
+  margin-right: 0;
+}
+
+.nav_span{
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: 'Raleway';
+  text-transform: uppercase;
+}
+
+.nav_span::after {
+  content: "it";
+  color: #ec7979;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+  font-family: 'Raleway';
+}

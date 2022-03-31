@@ -16,11 +16,11 @@ transform: scale(1.1) translate(40px, 0px);
 color:#8b1616;
 }
 
-.social_text{
+.social__text{
   width: 375px;
 }
 
-.social_text p {
+.social__text p {
   font-weight: 400;
   font-size: 14px;
   color: #86878b;
@@ -59,5 +59,6 @@ transition: 1.2s;
 .social__wrapper{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
 }

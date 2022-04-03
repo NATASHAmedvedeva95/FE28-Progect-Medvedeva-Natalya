@@ -2,53 +2,44 @@
   padding: 20px 0;
   background-color: #000000;
 }
-
-.header__nav {
+.wrapper_navigation{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  flex-wrap: wrap;
+  align-items: center;
 }
-
-.list {
+.list{
   display: flex;
-  flex-wrap: wrap;
 }
-
 .list__item {
   margin-right: 41px;
 }
-
-
 .list__item a {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
 }
-
-.list__item a:hover{
-  border-bottom: 3px solid #ffffff;
+.list__item a:hover {
+  border-bottom: 3px solid #ecbbbb;
   transition: 0.5s;
-  color:#832e2e;
+  color: #4b4649;
 }
-
 .list__item:last-child {
   margin-right: 0;
 }
-
-.nav_span{
+.nav_span {
   color: white;
   font-weight: 400;
   font-size: 30px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
   text-transform: uppercase;
 }
-
 .nav_span::after {
   content: "it";
   color: #ec7979;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 30px;
-  font-family: 'Raleway';
+  font-family: "Raleway";
 }

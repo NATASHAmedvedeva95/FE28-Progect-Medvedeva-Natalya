@@ -3,13 +3,6 @@
   padding: 80px 0 59px 0;
 }
 
-.pricing__wrapper{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0 -15px; 
-}
-
 .pricing__ul{
   margin: 0 15px; 
   width: 340px;

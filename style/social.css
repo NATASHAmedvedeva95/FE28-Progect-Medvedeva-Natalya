@@ -45,16 +45,13 @@ transition: 1.2s;
   color: rgb(201, 201, 201);
 }
 
-
 .social__list a:hover{
-  color:rgb(195, 218, 238);
+  color:rgb(206, 163, 186);
 }
 
 .social__list:first-child{
   margin-left: 0;
 }
-
-
 
 .social__wrapper{
   display: flex;

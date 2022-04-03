@@ -48,14 +48,6 @@
   content: "\e0b7";
 }
 
-.item_wrapper {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  margin: 0 -15px;
-}
-
 .item__content {
   display: flex;
   flex-direction: column;

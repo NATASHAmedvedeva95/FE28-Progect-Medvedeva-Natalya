@@ -36,17 +36,26 @@
               <a href="#">Download</a>
             </div>
           </div>
-          <div class="wrapper_form">
            <form action="#" class="axit_form">
-              <div class="text__form"><p>Try Your <span>free</span>  Trial Today</p></div>
-              <div class="input">
-                <input type="text" placeholder="Name" axit_form_input>
-                <input type="text" placeholder="Email" axit_form_input>
-                <input type="text" placeholder="Password" axit_form_input>
+             <div class="form__content">
+              <h2>Try Your <span>free</span> Trial Today</h2>
+              <div class="form__item">
+                <label for="name">Name</label>
+                <input type="text" id="name">
               </div>
-              <button class="button">Get Started</button>
-            </form>
-          </div>
+              <div class="form__item">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+              </div>
+              <div class="form__item">
+                <label for="password">Password</label>
+                <input type="password" id="password">
+              </div>
+             </div>
+             <div class="axit_form__button">
+              <button>Get Started</button>
+             </div>
+          </form>
         </div>
       </div>
     </section>
@@ -282,19 +291,33 @@
         <div class="text content__text">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
-          <form action="#" class="form">
-            <div class="form__input">
-              <input type="text" placeholder="Name" class="form__input">
-              <input type="email" placeholder="Email" class="form__input">
-              <input type="password" placeholder="Password" class="form__input">
+          <form action="#" class="contact__form">
+            <div class="contact__form_content">
+              <div class="contact__form-left">
+                <div class="form__contact-item">
+                  <label for="nameForm">Name</label>
+                  <input type="text" id="nameForm">
+                </div>
+                <div class="form__contact-item">
+                  <label for="emailForm">Email</label>
+                  <input type="email" id="emailForm">
+                </div>
+                <div class="form__contact-item">
+                  <label for="passwordForm">Password</label>
+                  <input type="password" id="passwordForm">
+                </div>
+              </div>
+              <div class="contact__form-right">
+                <label for="message">Message</label>
+                <div class="form__textarea">
+                  <textarea name="Message" id="message"></textarea>
+                </div>
+              </div>
             </div>
-            <div class="form__textarea">
-              <textarea name="Message" class="form__textarea">Message</textarea>
+            <div class="form__button">
+                <button>Send Message</button>
             </div>
           </form>
-         <div class="form__button">
-            <button>Send Message</button>
-          </div>
       </div>
     </section>
     <footer class="footer">

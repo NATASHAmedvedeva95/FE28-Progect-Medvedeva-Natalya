@@ -19,10 +19,11 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
+  border-bottom: 3px solid #0c0c0c;
+  transition: 0.5s;
 }
 .list__item a:hover {
   border-bottom: 3px solid #ecbbbb;
-  transition: 0.5s;
   color: #4b4649;
 }
 .list__item:last-child {

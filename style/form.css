@@ -2,42 +2,50 @@
   padding: 80px 0 44px 0;
 }
 
-
-.form {
-  margin: 0 15px;
-  display: flex;
+.contact__form_content{
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   margin: 0 -15px;
   margin-bottom: 68px;
 }
 
-
-.form input {
-  display: block;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid #bdbdbd;
-  font-weight: 400;
-  font-size: 14px;
-  width: 478px;
-  line-height: 82px;
-}
-
-textarea {
-  width: 478px;
+.contact__form-right label, .contact__form-left label {
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 14px;
   color: #bdbdbd;
-  resize: none;
+}
+
+.form__contact-item input{
+  margin-bottom: 49px;
+  outline: none;
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #bdbdbd;
-  line-height: 125px;
-  display: flex;
+  border-bottom: 1px solid #BDBDBD;
+  width: 100%;
+  display: block;
+}
+
+.form__contact-item:last-child{
+  margin-bottom: 0;
+}
+
+.form__textarea textarea{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #BDBDBD;
+  resize: none;
+  width: 100%;
+  line-height: 120px;
+  outline: none;
+}
+
+
+.contact__form-right, .contact__form-left{
+  width: 40%;
+  margin: 0 15px;
 }
 
 .form__button button {
@@ -49,13 +57,26 @@ textarea {
   color: white;
   font-weight: 600;
   font-size: 15px;
-  border: 1px solid #FFFFFF;
-  font-family: 'Open Sans';
-  transition:  1.02s;
+  border: 1px solid #ffffff;
+  font-family: "Open Sans";
+  transition: 1.02s;
 }
 
-.form__button button:hover{
+.form__button button:hover {
   transform: scale(0.98);
   border-color: #f8cfcf;
   background-color: #f0b5b5;
 }
+
+.form__contact-item input[type="text"]{
+  padding-bottom: 15px;
+}
+
+.form__contact-item input[type="email"]{
+  padding-bottom: 15px;
+}
+
+.form__contact-item input[type="password"]{
+  padding-bottom: 15px;
+}
+

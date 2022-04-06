@@ -114,6 +114,7 @@ html {
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 -15px;
 }
 
 .row__tabs {

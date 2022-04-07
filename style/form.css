@@ -5,6 +5,7 @@
 .contact__form_content{
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   margin: 0 -15px;
   margin-bottom: 68px;
 }
@@ -38,7 +39,7 @@
   border-bottom: 1px solid #BDBDBD;
   resize: none;
   width: 100%;
-  line-height: 120px;
+  line-height: 121px;
   outline: none;
 }
 

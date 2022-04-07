@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.row__text{
+  margin: 0 15px;
+}
+
 .axit::after {
   content: "";
   background: rgba(0, 0, 0, 0.55);
@@ -40,6 +44,7 @@
   width: 370px;
   background-color: #ffffff;
   border-radius: 8px;
+  margin: 0 15px;
 }
 
 .axit_form h2 {

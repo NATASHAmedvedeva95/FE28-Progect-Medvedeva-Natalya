@@ -7,12 +7,10 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  margin: 0 -15px;
 }
 .list{
   display: flex;
   flex-wrap: wrap;
-  margin: 0 15px;
 }
 .list__item {
   margin-right: 41px;
@@ -38,7 +36,6 @@
   font-size: 30px;
   font-family: "Raleway";
   text-transform: uppercase;
-  margin: 0 15px;
 }
 .nav_span::after {
   content: "it";

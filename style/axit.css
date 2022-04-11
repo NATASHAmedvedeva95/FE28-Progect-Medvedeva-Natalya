@@ -9,6 +9,7 @@
 
 .row__text{
   margin: 0 15px;
+  width: 538px;
 }
 
 .axit::after {
@@ -38,6 +39,15 @@
 
 .axit__text p {
   color: white;
+  font-size: 14px;
+}
+.axit__link{
+  margin-left: 0;
+}
+
+.axit__link a{
+  color: white;
+  font-size: 0.835em;
 }
 
 .axit_form {
@@ -47,10 +57,10 @@
   margin: 0 15px;
 }
 
-.axit_form h2 {
+.axit_form_h2 {
   text-align: center;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 1.12rem;
   margin-bottom: 50px;
 }
 
@@ -86,7 +96,7 @@
   color: #bdbdbd;
 }
 
-.axit_form__button button {
+.axit_form__button{
   width: 100%;
   height: 54px;
   background: #ec7979;
@@ -101,7 +111,7 @@
   border-bottom-left-radius: 8px;
 }
 
-.axit_form__button button:hover {
+.axit_form__button:hover {
   background-color: #f8f5f5;
   color: #ec7979;
   box-shadow: 0 0 15px rgba(173, 26, 129, 0.158);

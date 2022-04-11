@@ -29,6 +29,7 @@
 
 .link{
   transition: 1s;
+  margin: 0 auto;
 }
 
 .link:hover{

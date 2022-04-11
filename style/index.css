@@ -1,4 +1,4 @@
-@import url("../style/awesome.css");
+@import url("../style/content.css");
 @import url("../cdn/cdn.css");
 @import url("../style/pricing.css");
 @import url("../style/saying.css");
@@ -43,7 +43,7 @@ html {
 .title {
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 34px;
@@ -73,17 +73,11 @@ html {
   background-color: #ffffff;
 }
 
-.link {
-  width: 135px;
-  height: 42px;
-  border: 1px solid #ffffff;
+.link_em {
+  width: 8.4em;
+  line-height: 2.652em;
+  border: 0.0625em solid #ffffff;
   text-align: center;
-  margin: auto;
-  padding: 6px 0;
-}
-
-.axit__link{
-  margin-left: 0;
 }
 
 .link a {
@@ -91,18 +85,11 @@ html {
   font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 15px;
+  font-size: 0.835em;
 }
 
 .link:hover {
   cursor: pointer;
-}
-
-.tabs__link {
-  background: #ec7979;
-  /* уточнить про это св-во */
-  /* margin: initial; */
-  margin-left: 0;
 }
 
 .contact__link {
@@ -125,15 +112,14 @@ html {
 h1 {
   text-transform: uppercase;
   font-weight: 400;
-  font-size: 36px;
+  font-size: 2rem;
   line-height: 42px;
-  width: 538px;
-  color: #FFFFFF;
+  color: #ffffff;
   transition: 1.3s;
 }
 
-h1::after{
-  content: '';
+h1::after {
+  content: "";
   display: block;
   width: 64px;
   height: 1px;
@@ -142,6 +128,267 @@ h1::after{
   margin-bottom: 39px;
 }
 
-h1:hover{
- color:rgb(83, 35, 62);
+h1:hover {
+  color: rgb(83, 35, 62);
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .axit__span {
+    text-align: center;
+  }
+  .axit__link {
+    margin-bottom: 60px;
+  }
+  .axit_form {
+    margin: 0 auto;
+  }
+  .wrapper {
+    display: flex;
+    justify-content: center;
+  }
+  .social_wrapper {
+    justify-content: flex-start;
+  }
+  .item__content,
+  .pricing__ul {
+    margin-bottom: 35px;
+  }
+  .tabs_row {
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .tab {
+    width: 150px;
+    line-height: 100px;
+    margin-right: 20px;
+  }
+  .wrapper__tabs {
+    display: flex;
+    justify-content: center;
+  }
+  .tabs {
+    padding: 60px 0;
+  }
+  .row_text {
+    text-align: center;
+  }
+  .tabs_title {
+    margin-bottom: 40px;
+  }
+  .tabs__link {
+    margin: 0 auto;
+    margin-bottom: 32px;
+  }
+  .content-benefits {
+    padding: 79px 0 70px 0;
+  }
+  .saying__item {
+    margin-bottom: 42px;
+  }
+  .saying__item:last-child {
+    margin-bottom: 0;
+  }
+  .link_em {
+    font-size: 15px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    max-width: 100%;
+  }
+  .tabs {
+    background: none;
+  }
+  .list {
+    display: none;
+  }
+  html {
+    font-size: 12px;
+  }
+  .axit {
+    padding: 50px 0;
+  }
+  .row__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  h1::after {
+    margin: 25px auto;
+  }
+  .axit_form {
+    width: 330px;
+  }
+  .social__row {
+    margin-bottom: 15px;
+  }
+  .tab {
+    width: 100px;
+    line-height: 80px;
+  }
+  .content-benefits {
+    padding: 20px 0 40px 0;
+  }
+  .tabs_image {
+    width: 300px;
+  }
+  .tabs_text_indent p,
+  .axit__text p,
+  .social__text p,
+  .form__item label,
+  .text p,
+  .span_jeremy,
+  .span_manager,
+  .axit_form__button,
+  .contact__form-right label,
+  .contact__form-left label {
+    font-size: 12px;
+  }
+  .social__title {
+    font-size: 15px;
+  }
+  .item__title {
+    font-size: 16px;
+  }
+  .pricing__ul {
+    width: 300px;
+  }
+  .saying {
+    padding: 68px 0 85px 0;
+  }
+  .saying__text p {
+    font-size: 12px;
+  }
+  .saying__avatar {
+    width: 55px;
+    height: 55px;
+  }
+  .axit__span::after,
+  .axit__span {
+    font-size: 60px;
+  }
+  .contact__form_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form__textarea textarea {
+    line-height: 86px;
+  }
+  .link_em {
+    font-size: 12px;
+  }
+  .form__button {
+    width: 140px;
+    height: 42px;
+    font-size: 12px;
+  }
+  .form__contact-item input {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 430px) {
+  .container {
+    max-width: 100%;
+  }
+  html {
+    font-size: 10px;
+  }
+  .axit_form {
+    width: 280px;
+  }
+  .axit {
+    padding: 30px 0;
+  }
+  .tab {
+    width: 80px;
+    line-height: 60px;
+  }
+  .tabs_text_indent p {
+    font-size: 10px;
+  }
+  .content__text {
+    margin-bottom: 46px;
+  }
+  .item {
+    width: 270px;
+  }
+  .item__text {
+    width: 240px;
+  }
+  .item__text p {
+    font-size: 12px;
+  }
+  .item__title {
+    font-size: 14px;
+  }
+  .pricing {
+    padding: 48px 0 20px 0;
+  }
+  .pricing__ul {
+    width: 250px;
+  }
+  .pricing__text {
+    margin-bottom: 40px;
+  }
+  .saying {
+    padding: 40px 0 85px 0;
+  }
+  .saying__text p:hover {
+    transform: scale(1.05);
+  }
+  .saying__row {
+    width: 235px;
+  }
+  .saying__item {
+    width: 237px;
+  }
+  .axit__span::after,
+  .axit__span {
+    font-size: 30px;
+  }
+  .link_em {
+    font-size: 12px;
+  }
+  .form__textarea textarea {
+    line-height: 68px;
+  }
+  .form__button {
+    width: 88px;
+    height: 40px;
+    font-size: 10px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    max-width: 100%;
+  }
+  .axit_form {
+    width: 250px;
+  }
+  html {
+    font-size: 8px;
+  }
+  .form__textarea textarea {
+    line-height: 55px;
+  }
+  .footer__list {
+    margin-right: 5px;
+  }
+  .footer__list a {
+    font-size: 15px;
+  }
+  .item__title {
+    font-size: 13px;
+  }
 }

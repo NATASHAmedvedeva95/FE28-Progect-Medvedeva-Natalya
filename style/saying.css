@@ -4,6 +4,7 @@
 
 .saying__item{
   margin: 0 15px; 
+  width: 298px;
 }
 
 .saying__avatar {
@@ -30,7 +31,10 @@
 
 .saying__text{
   position: relative;
-  width: 298px;
+}
+
+.saying__text p{
+  transition: 1.05s;
   padding: 7px 19px;
   background: #e2e2e2;
   border-radius: 7px;
@@ -40,10 +44,6 @@
   line-height: 19px;
   color: #86878b;
   margin-bottom: 18px;
-}
-
-.saying__text p{
-  transition: 1.05s;
 }
 
 .saying__text p:hover{

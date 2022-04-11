@@ -4,6 +4,9 @@
 .tabs_row {
   margin-right: 4.45rem;
 }
+.tab:last-child{
+  margin-right: 0;
+}
 
 .wrapper__tabs {
   display: flex;
@@ -42,7 +45,12 @@
   text-transform: uppercase;
   color: #86878b;
   line-height: 19px;
+}
+.tabs_text_indent_bottom1{
   margin-bottom: 45px;
+}
+.tabs_text_indent_bottom{
+  margin-bottom: 42px;
 }
 
 .tabs__link {

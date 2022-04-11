@@ -43,6 +43,10 @@
 }
 .axit__link{
   margin-left: 0;
+  cursor: pointer;
+  animation-name: link_inf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 .axit__link a{
@@ -116,4 +120,13 @@
   color: #ec7979;
   box-shadow: 0 0 15px rgba(173, 26, 129, 0.158);
   border: none;
+}
+
+@keyframes link_inf{
+  50% {
+    transform: scale(1.05);
+    background-color: rgb(236, 121, 121, 0.6);
+    
+  }
+  
 }
